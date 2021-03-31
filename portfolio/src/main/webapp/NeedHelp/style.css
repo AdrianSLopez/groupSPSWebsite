@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .page-title {
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active {
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.navBar {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.navBar.active {
+  right: 300px;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  position: relative;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover {
+  color: #03a9f4; 
+}
+
+@media (max-width: 991px) {
+  .content,
+  .content header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+.content-section {
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 0% 10% 0% 10%;
+  transition: 00.5s;
+}
+.content-title{ 
+  font-size: 2em;
+  font-weight: 560;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.button-1 {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #111;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  border-radius: 50px;
+  border: none;
+}
+.button-1:hover {
+  letter-spacing: 5px;
+  background-color: #03a9f4;
+  cursor: pointer;
+}
+.button-1.active {
+  letter-spacing: 5px;
+  background-color: #03a9f4;
+  cursor: pointer;
+}
+.button-2 {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #111;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  border-radius: 50px;
+  border: none;
+}
+.button-2:hover {
+  letter-spacing: 5px;
+  background-color: #03a9f4;
+  cursor: pointer;
+}
+.button-2.active {
+  letter-spacing: 5px;
+  background-color: #03a9f4;
+  cursor: pointer;
+}
+.note-text {
+  margin-top: 1%;
+  color: #fff;
+  font-size: 12px;
+}
+.map-holder {
+  border: none;
+  height: 0px;
+  width: 1100px;
+  transition: 0.7s;
+}
+.map-holder.active {
+  border: none;
+  margin-top: 1%;
+  height: 600px;
+  width: 1100px;
+  transition: 0.5s;
+}
+.map {
+  border: none;
+  margin-top: 5%;
+  height: 600px;
+  width: 1100px;
+  transition: 0.5s;
+}
+.list-holder {
+  background-color: #151515;
+  color: #fff;
+  border: none;
+  height: 0px;
+  width: 1100px;
+  font-size: 0px;
+  text-align: left;
+}
+.list-holder.active {
+  margin-top: 1%;
+  border: none;
+  height: 500px;
+  width: 1100px;
+  transition: 0.5s;
+  text-align: left;
+  font-size: 15px;
+  overflow-y: auto;
+}
+.list-title {
+  text-align: center;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+.resource-holder {
+  margin: 0% 5% 3% 5%;
+}
+.resource-holder a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0px;
+}
+.resource-holder a.active{
+  text-decoration: none;
+  font-size: 25px;
+}
+.resource-holder a:hover {
+  text-decoration: underline;
+  font-size: 28px;
+  transition: 0.2s;
+  color: #03a9f4;
+}
+.infoWindow {
+  min-width: 150px;
+  min-height: auto;
+  text-align: left;
+}
+.infoWindow-title {
+  font-size: 15px;
+  color: #03a9f4;
+}

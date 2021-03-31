@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>NeedHelp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLh9Box3fpYImoHhrHJTc7CoHDhP-87Fg&map_ids=892b95989cdc9cc6&callback=initMap"></script>
+        <script src="infoView.js"></script> 
+    </head>
+
+    <body onload="addPantries()">
+        <div class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Volunteer</a></li>
+              <li><a href="#">Need Help</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+        <section class="navBar">
+            <header>
+                <h2 class="page-title">Resources</h2>
+                <div class="toggle"></div>
+            </header>
+            <div class="content-section">
+                <p class="content-title">Food Pantries in L.A.</p>
+                <button class="button-1" onclick="mapView()">Map View</button>
+                <button class="button-2" onclick="listView()">List View</button>
+                <p class="note-text">*Pantry distribution times are subject to change.*</p>
+                <div class="map-holder"></div>
+                <div class="list-holder" id="list-holder">
+                    <h1 class="list-title">Lists</h1>
+                </div>
+            </div>
+        </section>
+        <script src="menu.js"></script> 
+    </body>
+</html>
