@@ -1,0 +1,192 @@
+{
+    "size": 17,
+    "foodPantries": [
+        {
+            "name": "Fred Jordan Mission",
+            "website": "https://www.fjm.org/",
+            "contact": "626-712-3794",
+            "street": "445 S. Towne Avenue",
+            "zipCode": "90013",
+            "cityState": "Los Angeles, CA",
+            "description": "Tuesday, Wednesday, Thursday, + Friday 9AM to 12PM and 3PM to 4PM / Saturday 9AM to 12PM",
+            "longitude": -118.242050,
+            "latitude": 34.043330
+        },
+        {
+            "name": "Open Door Skidrow Ministries",
+            "website": "N/A",
+            "contact": "661-208-2143, No website",
+            "street": "419 E. 6th Street",
+            "zipCode": "90014",
+            "cityState": "Los Angeles, CA",
+            "description": "Friday 7PM to 9PM, Sunday 4PM to 6PM",
+            "longitude": -118.245880,
+            "latitude": 34.042710
+        },
+        {
+            "name": "Salvadoran American Leadership and educational Fun",
+            "website": "http://salef.org/",
+            "contact": "213-480-1052",
+            "street": "421 S. Bixel Street, Suite A",
+            "zipCode": "90017",
+            "cityState": "Los Angeles, CA",
+            "description": "Wednesday 4PM to 6:30PM",
+            "longitude": -118.261010,
+            "latitude": 34.056140  
+        },
+        {
+            "name": "Central City Neighborhood Partners",
+            "website": "https://www.laccnp.org/index.php",
+            "contact": "213-482-8618",
+            "street": "501 S. Bixel Street",
+            "zipCode": "90017",
+            "cityState": "Los Angeles, CA",
+            "description": "Thursday 9AM to 1PM",
+            "longitude": -118.2617968985487,
+            "latitude": 34.05489817251843  
+        },
+        {
+            "name": "My Friends house foundation",
+            "website": "https://www.myfriendshousela.org/wefeedthehungry",
+            "contact": "213-537-0105",
+            "street": "1244 E. 7th Street",
+            "zipCode": "90021",
+            "cityState": "Los Angeles, CA",
+            "description": "Wednesday 12PM to 2:30PM",
+            "longitude": -118.24151133348713 ,
+            "latitude": 34.036798714318074
+        },
+        {
+            "name": "White Memorial S.D.A. Church",
+            "website": "https://www.thewhite.org/",
+            "contact": "323-264-2170",
+            "street": "401 N. State Street",
+            "zipCode": "90033",
+            "cityState": "Los Angeles, CA",
+            "description": "Tuesday 10AM to 12PM",
+            "longitude":  -118.21620104567027,
+            "latitude": 34.050211230111124
+        },
+        {
+            "name": "Filipino Christian Church",
+            "website": "https://www.fdccla.net/",
+            "contact": "213-483-5821",
+            "street": "301 N. Union Avenue",
+            "zipCode": "90026",
+            "cityState": "Los Angeles, CA",
+            "description": "2nd and 4th Saturday 10AM to 11AM",
+            "longitude": -118.26438302519371,
+            "latitude": 34.06764506833697
+        },
+        {
+            "name": "Spanish American S.D.A. Church",
+            "website": "https://spanishamericanca.adventistchurch.org/",
+            "contact": "323-222-7063",
+            "street": "1815 E. Bridge Street",
+            "zipCode": "90033",
+            "cityState": "Los Angeles, CA",
+            "description": "4th Wednesday 4PM to 6PM & Every Saturday from 12PM - 1PM",
+            "longitude": -118.21517407484448,
+            "latitude": 34.051624912246105
+        },
+        {
+            "name": "St. Athanasius & St. Paul Church",
+            "website": "https://saintala.org/",
+            "contact": "213-482-2040",
+            "street": "840 Echo Park Avenue",
+            "zipCode": "90026",
+            "cityState": "Los Angeles, CA",
+            "description": "Friday 7AM to 9AM",
+            "longitude":  -118.2589763151204,
+            "latitude": 34.07346155529521
+        },
+        {
+            "name": "The Universal Church, Inc.",
+            "website": "https://www.universalchurchusa.org/en/endereco/california-bonnie-brae-29861",
+            "contact": "800-581-4141",
+            "street": "625 S. Bonnie Brae St",
+            "zipCode": "90057",
+            "cityState": "Los Angeles, CA",
+            "description": "Sunday 11AM to 4:30PM & Tuesday 3PM to 8PM",
+            "longitude": -118.27301153794363,
+            "latitude": 34.05799249732371
+        },
+        {
+            "name": "Salvation Army- L.A. Central Corp",
+            "website": "https://www.salvationarmyusa.org/usn/cure-hunger/",
+            "contact": "213-896-9178",
+            "street": "1532 West 11th Street",
+            "zipCode": "90015",
+            "cityState": "Los Angeles, CA",
+            "description": "Monday - Thursday 9AM - 12PM & Friday 7AM - 12PM (SENIOR ONLY SATURDAY 9AM - 12PM)",
+            "longitude": -118.27477119681143,
+            "latitude": 34.04734167915131
+        },
+        {
+            "name": "Pico Union Project",
+            "website": "https://www.picounionproject.org/",
+            "contact": "213-915-0084",
+            "street": "1153 Valencia St.",
+            "zipCode": "90015",
+            "cityState": "Los Angeles, CA",
+            "description": "Tuesday & Friday 8AM to 2PM",
+            "longitude": -118.27433122976355,
+            "latitude": 34.045678392075374
+        },
+        {
+            "name": "Estrella Del Mar de L.A. (Regis House Commun)",
+            "website": "https://www.regishousecommunitycenter.org/",
+            "contact": "213-380-8168",
+            "street": "2212 Beverly Boulevard",
+            "zipCode": "90057",
+            "cityState": "Los Angeles, CA",
+            "description": "2nd and 4th Thursday of the month 10AM to 11AM",
+            "longitude": -118.27191833554699,
+            "latitude": 34.067164537454694
+        },
+        {
+            "name": "St. Francis Center",
+            "website": "https://www.stfranciscenterla.org/campaigns/family-well-being/",
+            "contact": "213-747-5347",
+            "street": "1835 S. Hope Street",
+            "zipCode": "90015",
+            "cityState": "Los Angeles, CA",
+            "description": "Wednesday, Thursday, Saturday 9AM to 11AM (SENIOR ONLY Friday 10AM-1PM)",
+            "longitude": -118.26969190987339,
+            "latitude": 34.034012063376665
+        },
+        {
+            "name": "All Peoples Christian Center",
+            "website": "https://allpeoplescc.org/programs/adults-family/",
+            "contact": "213-747-6357",
+            "street": "822 E. 20th Street",
+            "zipCode": "90011",
+            "cityState": "Los Angeles, CA",
+            "description": "Friday 9:30AM to 1PM",
+            "longitude":  -118.25655857519007,
+            "latitude": 34.02575246336512
+        },
+        {
+            "name": "Labor Community Services of Los Angeles",
+            "website": "https://lcs-la.org/events",
+            "contact": "213-381-5611",
+            "street": "2130 W. James M. Wood Blvd",
+            "zipCode": "90006",
+            "cityState": "Los Angeles, CA",
+            "description": "Check website for upcoming food distribution events.",
+            "longitude": -118.27966306091946,
+            "latitude": 34.05357914395631
+        },
+        {
+            "name": "Los Angeles, Boys & Girls Club",
+            "website": "https://www.labgc.org/programs/healthy-lifestyles/",
+            "contact": "323-221-9111",
+            "street": "2635 Pasadena Avenue",
+            "zipCode": "90031",
+            "cityState": "Los Angeles, CA",
+            "description": "Thursdays 5:00-7:00pm",
+            "longitude": -118.21563911817807,
+            "latitude": 34.078013860945404
+        }
+    ]
+}
