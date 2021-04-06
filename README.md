@@ -1,3 +1,3 @@
 
 
-This repo contains Adrian Salgado Lopez, Arlet Miranda Torres, Ebenezar Obiri Mensah, and Oswaldo Escobedo website.
+This repo contains Adrian Salgado Lopez, Arlet Miranda Torres, Ebenezer Obiri Mensah, and Oswaldo Escobedo website.
