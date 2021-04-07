@@ -1,338 +1,349 @@
-<<<<<<< HEAD
- <!-- Video Source -->
-  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
-  <!DOCTYPE html>
-  <html>
-    
-    <head>
-        <meta charset="UTF-8">
-        <title>FoodBank</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        
-        
-        
-    </head>
-    <body>
-        <div class="menu">
-        <ul>
-          <li><a href="../webapp/index.html">Home</a></li>
-          <li><a href="../webapp/About/index.html">About</a></li>
-          <li><a href="../webapp/">Contact</a></li>
-          <li><a href="../webapp/NeedHelp/index.html">Need Help</a></li>
-          <li><a href="../webapp/Feedback/index.html">Feedback</a></li>
-        </ul>
-=======
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>FoodBank</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FoodBank</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="Style.css" />
-  <link rel="stylesheet" href="mobile-style.css">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxZgLwG0rcUDyEozyUoOytdXB5iZHhJu0&libraries=places&callback=initMap" async></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="mobile-style.css">
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxZgLwG0rcUDyEozyUoOytdXB5iZHhJu0&libraries=places&callback=initMap"
+        async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-book-reader fa-2x mx-3"></i>FOODBANK</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="fas fa-align-right text-light"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mr-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#donate">DONATE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#stats">STATS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          <h1>FIND FOODBANK</h1>
-          <p>
-            Whether you are interested in finding food or volunteering, click on the button for resources in your community.
-          </p>
-          <button class="btn btn-light px-5 py-2 primary-btn">
-            VOLUNTEER/FIND FOODBANK
-          </button>
-        </div>
-        <div class="col-md-5 col-sm-12  h-25">
-          <img src="./images/volunteer.jpg" alt="" />
-        </div>
->>>>>>> e13aad9748c2e05f62e3f21cab1e8ee50169b90f
-      </div>
-    </div>
-  </header>
-  <main>
-    
-    <section class="section-1">
-      <div id="panel"></div>
-      <div id="map"></div>
-    </section>
-    <section class="section-2 container-fluid p-0">
-      <div class="cover">
-        <div class="overlay"></div>
-        <div id="stats" class="content text-center">
-          <h1>Why should I Volunteer?</h1>
-          <p>
-            Statistics on food insecurity and hunger.
-          </p>
-        </div>
-      </div>
-      <div class="container-fluid text-center">
-        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-          <div class="rect">
-            <h1>690</h1>
-            <p>Million people go to bed on an empty stomach each night.</p>
-          </div>
-          <div class="rect">
-            <h1>42</h1>
-            <p> Million People may face hunger because of coronavirus.</p>
-          </div>
-          <div class="rect">
-            <h1>10</h1>
-            <p> Million children live in food-insecure households.</p>
-          </div>
-          <div class="rect">
-            <h1>2</h1>
-            <p>Billion people are moderately or severely food insecure.</p>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="donate" class="purchase text-center">
-        <h1>Donate any amount you want</h1>
-        <p>
-          Any amount can go a long way in helping eradicate hunger. All money goes to the specific organizations.
-        </p>
-        <div class="cards">
-          <div class="d-flex flex-row justify-content-center flex-wrap">
-            <div class="card">
-              <div class="card-body">
-                <div class="title">
-                  <h5 class="card-title" style="color: #dd2746;">UNICEF</h5>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-book-reader fa-2x mx-3"></i>FOODBANK</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">HOME
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#donate">DONATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#stats">STATS</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>-->
+                    </ul>
                 </div>
-                <p class="card-text">
-                  You will be redirected to UNICEF to complete transaction.
-                </p>
-                <div class="pricing">
-                  <h1>$5</h1>
-                  <a href="https://www.unicefusa.org/?form=HealthEmergency&utm_content=corona3responsive&ms=cpc_dig_2020_Emergencies_20200402_google_corona3responsive_delve&initialms=cpc_dig_2020_Emergencies_20200402_google_corona3responsive_delve&gclid=CjwKCAjwjbCDBhAwEiwAiudBy0dmU8fEJ2I7WlRBfkAnpufzHHKP5i73_ONYyo2fZMVyhOK260l6KRoCBUoQAvD_BwE" class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <div class="title">
-                  <h5 class="card-title" style="color: #dd2746;">Feeding America</h5>
-                </div>
-                <p class="card-text">
-                  You will be redirected to Feeding America to complete transaction.
-                </p>
-                <div class="pricing">
-                  <h1>$2</h1>
-                  <a href="https://secure.feedingamerica.org/site/Donation2?idb=363626353&df_id=29490&mfc_pref=T&29490.donation=form1&?29490.donation=form1&s_channel=google&s_onsite_promo=MainNav_Donate&s_subsrc=2021test-b&s_src=W214ORGSC&idb=1075315859&26876.donation=form1&26876_donation=form1&s_referrer=google&_ga=2.263925452.1987427448.1617757847-1933703285.1617757847&NONCE_TOKEN=6E696A12C93E6B6B058E9298832A903F" class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <div class="title">
-                  <h5 class="card-title" style="color: #dd2746;">World Vision</h5>
-                </div>
-                <p class="card-text">
-                  You will be redirected to Feeding America to complete transaction.
-                </p>
-                <div class="pricing">
-                  <h1>$1</h1>
-                  <a href="https://donate.worldvision.org/give/hunger-fund" class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
-                </div>
-              </div>
-            </div>
-          </div>
+            </nav>
         </div>
-      </div>
-    </section>
-    <section class="section-3 container-fluid p-0 text-center">
-     <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h1>FAQS</h1>
-          <div id="faq">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12  text-white">
+                    <h1>FOODBANKS of America</h1>
+                    <p>
+                        Whether you are in need of food or are interested in volunteering at your 
+                        local food bank, click the button to learn more about the resources in
+                        your community.
+                    </p>
+                    <button class="btn btn-light px-5 py-2 primary-btn">
+                        FIND FOODBANK 
+                    </button>
+                </div>
+                <div class="col-md-5 col-sm-12  h-25">
+                    <img src="./images/fruits-black-and-white.jpg"  alt="" /> <!--volunteer.jpg"-->
             
-        <input id="search" placeholder= "Search our FAQS" value="" size="30" /></p>
-        <p>&nbsp;</p>
-        <ul id="result">
-          <li><strong>What volunteer opportunities are available?</strong><br /><br /><em>
-            We have a number of volunteer opportunities for individuals and groups, whether you want to volunteer once a year or on a regular basis.
-          <br /><br /></em></li>
-          <li><strong>How do I register my group to volunteer?</strong><br /><br /><em>
-            We currently don't offer volunteer registration sign ups. We only connect you to resources.
-          <br /><br /></em></li>
-        </ul>
-<<<<<<< HEAD
-      </section>
+                </div>
+                
+                                
+                <div class= row2>
+                <div class="text-black text-center">
+                <h3>About Me</h3>
+                <br>
+                </div>
+                <div class="col-md-8 text-black">
+                <h4>Our Mission</h4>
+                <p>We want to make accesibility to food easier to the hungry mouths of America.
+                    Everyone deserves the right to proper nutrition. We are here to help make that 
+                    happen. 
+                </p>
+                </div>
 
-    </html>
-=======
-        </div><!-- #faq -->
+                <div class="col-md-8 text-black">                
+                <h4>Our Vision</h4>   
+                <p>Prevent households from going hungry  by providing them with the resources
+                     they need to find their local food banks. 
+                </p> 
+                </div>
+                </div>     
+            </div>        
         </div>
-      </div>
-    </section>
+    </header>
+    <main>
 
-    <!-- Section 4 -->
-    <section class="section-4">
-      <div class="container text-center">
-        <h1 class="text-dark">Who we are</h1>
-        <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="team row ">
-        <div class="col-md-4 col-12 text-center">
-            <div class="card mr-2 d-inline-block shadow-lg">
-                <div class="card-img-top">
-                  <img src="./images/ebene.JPG" style="width: 250px; height: 250px;" class="img-fluid border-radius p-4" alt="">
+        <section class="section-1">
+            <div id="panel"></div>
+            <div id="map"></div>
+        </section>
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div id="stats" class="content text-center">
+                    <h1>Why Should I Volunteer?</h1>
+                    <p>
+                        Statistics on food insecurity and hunger.
+                    </p>
                 </div>
-                <div class="card-body">
-                  <h3 class="card-title">Ebenezer</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                    minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
-                  </p>
-                  <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                  <p class="text-black-50">Student at Pomona</p>
-                </div>
-              </div>
-        </div>
-        <div class="col-md-4 col-12">
-            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
-                <div class="carousel-inner text-center">
-                  <div class="carousel-item active">
-                    <div class="card mr-2 d-inline-block shadow">
-                      <div class="card-img-top">
-                        <img src="./" class="img-fluid rounded-circle w-50 p-4" alt="">
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title">Arlet Miranda</h3>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                          minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
-                        </p>
-                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                        <p class="text-black-50">Student at Berkeley</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card  d-inline-block mr-2 shadow">
-                      <div class="card-img-top">
-                        <img src="./" class="img-fluid rounded-circle w-50 p-4" alt="">
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title">Oswaldo</h3>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                          minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
-                        </p>
-                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                        <p class="text-black-50">Student at Texas</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-        </div>
-        </div>
-        <div class="col-md-4 col-12 text-center">
-            <div class="card mr-2 d-inline-block shadow-lg">
-                <div class="card-img-top">
-                  <img src="../" class="img-fluid border-radius p-4" alt="">
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Adrian</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                    minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
-                  </p>
-                  <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                  <p class="text-black-50">Student at San Jose</p>
-                </div>
-              </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container-fluid p-0">
-      <div class="row text-left">
-        <div class="col-md-5 col-sm-5">
-          <h4 class="text-light">About us</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea similique illum corrupti</p>
-        </div>
-        <div class="col-md-5 col-sm-12">
-          <h4 class="text-light">Suggestions?</h4>
-          <p class="text-muted">Email Us</p>
-          <form class="form-inline">
-            <div class="col pl-0">
-              <div class="input-group pr-5">
-                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">
-                    <i class="fas fa-arrow-right"></i>
-                  </div>
-                </div>
-              </div>
             </div>
-          </form>
-        </div>
-        <div class="col-md-2 col-sm-12">
-          <h4 class="text-light">Additional</h4>
-          <p class="text-muted">Resources</p>
-          <div class="column text-light">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>690</h1>
+                        <p>Million people go to bed on an empty stomach each night.</p>
+                    </div>
+                    <div class="rect">
+                        <h1>42</h1>
+                        <p> Million People may face hunger because of coronavirus.</p>
+                    </div>
+                    <div class="rect">
+                        <h1>10</h1>
+                        <p> Million children live in food-insecure households.</p>
+                    </div>
+                    <div class="rect">
+                        <h1>2</h1>
+                        <p>Billion people are moderately or severely food insecure.</p>
+                    </div>
+                </div>
+            </div>
 
-  
+
+            <div id="donate" class="purchase text-center">
+                <h1>Donate any amount you want</h1>
+                <p>
+                    Any amount can go a long way in helping eradicate hunger. All money goes to the specific
+                    organizations.
+                </p>
+                <div class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title" style="color: #dd2746;">UNICEF</h5>
+                                </div>
+                                <p class="card-text">
+                                    You will be redirected to UNICEF to complete transaction.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$5</h1>
+                                    <a href="https://www.unicefusa.org/?form=HealthEmergency&utm_content=corona3responsive&ms=cpc_dig_2020_Emergencies_20200402_google_corona3responsive_delve&initialms=cpc_dig_2020_Emergencies_20200402_google_corona3responsive_delve&gclid=CjwKCAjwjbCDBhAwEiwAiudBy0dmU8fEJ2I7WlRBfkAnpufzHHKP5i73_ONYyo2fZMVyhOK260l6KRoCBUoQAvD_BwE"
+                                        class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title" style="color: #dd2746;">Feeding America</h5>
+                                </div>
+                                <p class="card-text">
+                                    You will be redirected to Feeding America to complete transaction.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$2</h1>
+                                    <a href="https://secure.feedingamerica.org/site/Donation2?idb=363626353&df_id=29490&mfc_pref=T&29490.donation=form1&?29490.donation=form1&s_channel=google&s_onsite_promo=MainNav_Donate&s_subsrc=2021test-b&s_src=W214ORGSC&idb=1075315859&26876.donation=form1&26876_donation=form1&s_referrer=google&_ga=2.263925452.1987427448.1617757847-1933703285.1617757847&NONCE_TOKEN=6E696A12C93E6B6B058E9298832A903F"
+                                        class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title" style="color: #dd2746;">World Vision</h5>
+                                </div>
+                                <p class="card-text">
+                                    You will be redirected to Feeding America to complete transaction.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$1</h1>
+                                    <a href="https://donate.worldvision.org/give/hunger-fund"
+                                        class="btn btn-dark px-5 py-2 primary-btn mb-5">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>FAQS</h1>
+                    <div id="faq">
+
+                        <input id="search" placeholder="Search our FAQS" value="" size="30" /></p>
+                        <p>&nbsp;</p>
+                        <ul id="result">
+                            <li><strong>What volunteer opportunities are available?</strong><br /><br /><em>
+                                    We have a number of volunteer opportunities for individuals and groups, whether you
+                                    want to volunteer once a year or on a regular basis.
+                                    <br /><br /></em></li>
+                            <li><strong>How do I register my group to volunteer?</strong><br /><br /><em>
+                                    We currently don't offer volunteer registration sign ups. We only connect you to
+                                    resources.
+                                    <br /><br /></em></li>
+                        </ul>
+                    </div><!-- #faq -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">Who Are We?</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="team row ">
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="./images/ebene.JPG" style="width: 250px; height: 250px;"
+                                class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ebenezer</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta assumenda
+                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                voluptas!
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <p class="text-black-50">Student at Pomona</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <div class="card mr-2 d-inline-block shadow">
+                                    <div class="card-img-top">
+                                        <img src="./images/arlet.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Arlet Miranda</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                            recusandae, veniam, illo dolor soluta assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                                            facilis quasi voluptas!
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <p class="text-black-50">Student at Berkeley</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card  d-inline-block mr-2 shadow">
+                                    <div class="card-img-top">
+                                        <img src="./" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Oswaldo</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                            recusandae, veniam, illo dolor soluta assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                                            facilis quasi voluptas!
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <p class="text-black-50">Student at Texas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Adrian</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta assumenda
+                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                voluptas!
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <p class="text-black-50">Student at Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-5">
+                    <h4 class="text-light">About us</h4>
+                    <p class="text-light">We're a group of college students hoping to help feed the mouths of America. </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h4 class="text-light">Suggestions?</h4>
+                    <p class="text-light">Email Us</p>
+                    <form class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white"
+                                    id="inlineFormInputGroupUsername2" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Additional</h4>
+                    <p class="text-light">Resources</p>
+                    <div class="column text-light">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
->>>>>>> e13aad9748c2e05f62e3f21cab1e8ee50169b90f
