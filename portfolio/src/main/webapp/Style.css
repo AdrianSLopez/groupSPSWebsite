@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, blue, yellow);
+  --bggradient: linear-gradient(to bottom, black, white); /*lue, yellow);*/
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -34,7 +34,7 @@ header a {
 }
 
 .dropdown-content a {
-  color: black;
+  color: grey; /*black;*/
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -61,7 +61,7 @@ header .navbar-brand {
 }
 
 header .nav-link:hover {
-  color: yellow;
+  color: white; /*yellow;*/
 }
 
 header .row .col-md-7 {
@@ -78,7 +78,7 @@ header .row .col-md-5 img {
 }
 
 header {
-  background: #ff512f;
+  background: black; /*#ff512f;*/
   /* fallback for old browsers */
   background: var(--bggradient);
 }
@@ -108,10 +108,33 @@ header .container .col-md-7 p {
 }
 
 .primary-btn:hover{
-    background-color: blue;
-    color: yellow;
+    background-color: black;/*blue;*/
+    color: white; /*yellow;*/
     letter-spacing: 6px;
     transition: 0.3s ease-in-out;
+}
+
+/********** section 0 **************/
+
+/* Create two equal columns that floats next to each other */
+.col-md-8{
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other 
+instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .col-md-8{
+    width: 100%;
+  }
 }
 /********** section 1 **************/
 
@@ -201,7 +224,7 @@ header .container .col-md-7 p {
   padding-top: 3.5vmin;
   margin: 1rem;
   border-radius: 0.5em;
-  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+  box-shadow: 1px 2px 50px 0px black;/*rgba(255, 0, 0, 0.349);*/
 }
 
 .numbers {
@@ -210,7 +233,7 @@ header .container .col-md-7 p {
 
 .numbers .rect h1 {
   font-size: 5rem;
-  color: blue;
+  color: black; /*blue;*/
 }
 
 .numbers .rect > p {

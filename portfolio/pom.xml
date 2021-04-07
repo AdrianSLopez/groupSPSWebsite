@@ -16,7 +16,7 @@
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>asalgadolopez-sps-spring21</googleCloudProjectId>
+    <googleCloudProjectId>spring21-sps-42</googleCloudProjectId>
   </properties>
 
   <dependencies>
@@ -91,7 +91,7 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>2.2.0</version>
         <configuration>
-          <projectId>asalgadolopez-sps-spring21 </projectId>
+          <projectId>spring21-sps-42</projectId>
           <version>1</version>
         </configuration>
       </plugin>
