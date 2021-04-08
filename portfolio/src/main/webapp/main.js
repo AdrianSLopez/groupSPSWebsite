@@ -52,7 +52,7 @@ $(window).scroll(function () {
 
 
 
-
+let autocomplete;
 let pos;
 let map;
 let bounds;
@@ -62,6 +62,15 @@ let service;
 let infoPane;
 function initMap() {
     // Initialize variables
+    autocomplete = new google.maps.places.Autocomplete(
+        document.getElementById('address-text'), 
+        {
+            componentRestrictions: {'country':['us']},
+            fields: ['place_id', 'geometry', 'name']
+        });
+
+        autocomplete.addListener('place_changed', onPlaceChanged);
+
     bounds = new google.maps.LatLngBounds();
     infoWindow = new google.maps.InfoWindow;
     currentInfoWindow = infoWindow;
@@ -95,6 +104,20 @@ function initMap() {
     } else {
         // Browser doesn't support geolocation
         handleLocationError(false, infoWindow);
+    }
+  
+}
+
+//
+function onPlaceChanged(){
+    var place = autocomplete.getPlace();
+
+    if(!place.geometry){
+        document.getElementById('address-text').placeholder = 
+        'Enter an address';
+    }
+    else{
+        getNearbyPlaces(place);
     }
 }
 
@@ -251,6 +274,7 @@ function myFunction() {
 }
 
 async function getAddress() {
+    
     var address = document.getElementById("address-text").value;
 
     if(validateAddress(address)) {
