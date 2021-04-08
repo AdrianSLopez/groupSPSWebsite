@@ -54,13 +54,7 @@ $(window).scroll(function () {
 
 
 
-/* Note: This example requires that you consent to location sharing when
- * prompted by your browser. If you see the error "Geolocation permission
- * denied.", it means you probably did not give permission for the browser * to locate you. */
 
-/* TODO: Step 2, Geolocate your user
- * Replace the code from here to the END TODO comment with new code from
- * codelab instructions. */
 let pos;
 let map;
 let bounds;
