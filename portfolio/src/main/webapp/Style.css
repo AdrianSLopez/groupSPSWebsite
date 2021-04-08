@@ -190,6 +190,7 @@ instead of next to each other on smaller screens (600px wide or less) */
 .search-bar {
   border-radius: 50px;
   border-color: black;
+  border-style: solid;
   height: 4vmin;
   width: 50vmin;
   padding-left: 2vmin;
@@ -206,6 +207,7 @@ instead of next to each other on smaller screens (600px wide or less) */
   transition: 0.2s;
   border-radius: 30px;
   border-color: black;
+  border-style: solid;
   cursor: pointer;
 }
 
