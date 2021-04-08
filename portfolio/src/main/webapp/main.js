@@ -53,8 +53,6 @@ $(window).scroll(function () {
 
 
 
-
-    
 let pos;
 let map;
 let bounds;
