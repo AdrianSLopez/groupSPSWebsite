@@ -250,6 +250,48 @@ function myFunction() {
     }
 }
 
+async function getAddress() {
+    var address = document.getElementById("address-text").value;
+
+    if(validateAddress(address)) {
+        var geocode = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
+        address = address.replaceAll(" ", "+");
+        geocode = geocode.concat(address);
+        geocode = geocode.concat('&key=AIzaSyBLh9Box3fpYImoHhrHJTc7CoHDhP-87Fg');
+
+        await fetch(geocode)
+        .then(function(response) {
+           return response.json();
+        })
+        .then(function(data) {
+            const userLat = data.results[0].geometry.location.lat;
+            const userLng = data.results[0].geometry.location.lng;
+
+            pos = {lat: userLat, lng: userLng};
+            bounds = new google.maps.LatLngBounds();
+            infoWindow = new google.maps.InfoWindow;
+            currentInfoWindow = infoWindow;
+            infoPane = document.getElementById('panel');
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: pos,
+                zoom: 15
+            });
+            bounds.extend(pos);
+            map.setCenter(pos);
+            getNearbyPlaces(pos);
+        })
+        .catch(function(error) { 
+            console.log(error);
+        });
+    }else{
+        return;
+    }
+}
+
+function validateAddress(address){
+    if(address.length == 0) return false;
+    return true;
+  }
 
 /*FAQS*/
 
