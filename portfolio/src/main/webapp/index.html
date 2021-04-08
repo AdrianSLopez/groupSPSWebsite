@@ -310,6 +310,29 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section 5 -->
+        <section class="Section-5">
+            <div class="container text-center">
+                <h1 class="text-dark">Contact Us</h1>
+                <p class="text-secondary">Use the form below to send us an email.</p>
+            </div>
+            <div class="contact-container">
+                <form action="/contact" method="POST" id="contact-input">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br>
+                <p>
+                    <p>Message</p>
+                    <textarea name="message" id="message" form="contact-input" placeholder="Type a message..."></textarea>
+                </p>
+                <input type="submit" id="submit-button"/>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="container-fluid p-0">
