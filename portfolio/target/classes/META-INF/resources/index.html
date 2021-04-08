@@ -102,6 +102,12 @@
     <main>
 
         <section class="section-1">
+            <div class="search-bar-section">
+                <h3>Enter your address to find nearby food pantries.</h3> 
+                <input id="address-text" class="search-bar" placeholder="Ex: 123 main street, City name, State 90003, Country"> 
+                <button class="search-button" onclick="getAddress()"><img src="images/searchIcon.png"></button>
+            </div>
+            
             <div id="panel"></div>
             <div id="map"></div>
         </section>
@@ -193,42 +199,12 @@
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-3 container-fluid p-0 text-center">
-     <div class="row">
-        <div id="faqs" class="col-md-12 col-sm-12">
-          <h1>FAQS</h1>
-          <div id="faq">
-            
-        <input id="search" placeholder= "Search our FAQS" value="" size="30" /></p>
-        <p>&nbsp;</p>
-        <ul id="result">
-          <li><strong>What volunteer opportunities are available?</strong><br /><br /><em>
-            We have a number of volunteer opportunities for individuals and groups, whether you want to volunteer once a year or on a regular basis.
-          <br /><br /></em></li>
-          <li><strong>How do I register my group to volunteer?</strong><br /><br /><em>
-            We currently don't offer volunteer registration sign ups. We only connect you to resources.
-          <br /><br /></em></li>
-          <li><strong>Where do my donations go?</strong><br /><br /><em>
-            We don't accept donations. We direct you to complete donations directly on the sites of the charity organizations.
-          <br /><br /></em></li>          
-        </ul>
-        </div><!-- #faq -->
-        </div>
-      </div>
-    </section>
-=======
         </section>
         <section class="section-3 container-fluid p-0 text-center">
             <div id="faqs" class="row">
                 <div class="col-md-12 col-sm-12">
                     <h1>FAQS</h1>
                     <div id="faq">
->>>>>>> 4058f3664d7dd35f9c3eaedb48f671b356ae26b2
 
                         <input id="search" placeholder="Search our FAQS" value="" size="30" /></p>
                         <p>&nbsp;</p>
@@ -262,19 +238,17 @@
                 <div class="col-md-4 col-12 text-center">
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
-                            <img src="./images/ebene.JPG" style="width: 250px; height: 250px;"
-                                class="img-fluid border-radius p-4" alt="">
+                            <img src="./images/eben.JPG"
+                                class="img-fluid" alt="Responsive image" class="img-thumbnail">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Ebenezer</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
-                                veniam, illo dolor soluta assumenda
-                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
-                                voluptas!
+                                I am a Sophomore studying computer science at Pomona College, and I am primarily interested in 
+                                how software development can be used to solved challenging problems. 
                             </p>
-                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                            <p class="text-black-50">Student at Pomona</p>
+                            <a href="https://www.linkedin.com/in/ebenmensah/"  class="text-primary">View my linkedin profile</a>
+                            <p  class="text-black-50">Student at Pomona</p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +258,7 @@
                             <div class="carousel-item active">
                                 <div class="card mr-2 d-inline-block shadow">
                                     <div class="card-img-top">
-                                        <img src="./images/arlet.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                        <img src="./images/arlet.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Arlet Miranda</h3>
@@ -294,7 +268,7 @@
                                             minima quia velit officia sit exercitationem nam ipsa, repellendus aut
                                             facilis quasi voluptas!
                                         </p>
-                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <a href="#" class="text-primary">View my linkedin profile</a>
                                         <p class="text-black-50">Student at Berkeley</p>
                                     </div>
                                 </div>
@@ -302,7 +276,7 @@
                             <div class="carousel-item">
                                 <div class="card  d-inline-block mr-2 shadow">
                                     <div class="card-img-top">
-                                        <img src="./" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                        <img src="./" class="img-fluid" alt="Responsive image" class="img-thumbnail">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Oswaldo</h3>
@@ -312,7 +286,7 @@
                                             minima quia velit officia sit exercitationem nam ipsa, repellendus aut
                                             facilis quasi voluptas!
                                         </p>
-                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <a href="#" class="text-primary">View my linkedin profile</a>
                                         <p class="text-black-50">Student at Texas</p>
                                     </div>
                                 </div>
@@ -323,7 +297,7 @@
                 <div class="col-md-4 col-12 text-center">
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
-                            <img src="../" class="img-fluid border-radius p-4" alt="">
+                            <img src="../" class="img-fluid" alt="Responsive image" class="img-thumbnail">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Adrian</h3>
@@ -333,11 +307,34 @@
                                 minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
                                 voluptas!
                             </p>
-                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <a href="#" class="text-primary">View my linkedin profile</a>
                             <p class="text-black-50">Student at Los Angeles</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="Section-5">
+            <div class="container text-center">
+                <h1 class="text-dark">Contact Us</h1>
+                <p class="text-secondary">Use the form below to send us an email.</p>
+            </div>
+            <div class="contact-container">
+                <form action="/contact" method="POST" id="contact-input">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br>
+                <p>
+                    <p>Message</p>
+                    <textarea name="message" id="message" form="contact-input" placeholder="Type a message..."></textarea>
+                </p>
+                <input type="submit" id="submit-button"/>
+                </form>
             </div>
         </section>
     </main>
