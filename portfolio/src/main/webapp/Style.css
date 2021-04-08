@@ -139,7 +139,7 @@ instead of next to each other on smaller screens (600px wide or less) */
 /********** section 1 **************/
 
 .section-1 {
-  padding: 20vmin 0vmin;
+  padding: 5vmin 0vmin 20vmin 0vmin;
 }
 
 .section-1 .row .col-md-6 .pray img {
@@ -174,6 +174,43 @@ instead of next to each other on smaller screens (600px wide or less) */
 .section-1 .row .col-md-6 .panel p {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.search-bar-section{
+  text-align: center;
+  margin: 0vmin 0vmin 5vmin 50vmin;
+  width: 50%;
+}
+
+.search-bar-section h3 {
+  font-size: 1.4em;
+  color: black;
+}
+
+.search-bar {
+  border-radius: 50px;
+  border-color: black;
+  height: 4vmin;
+  width: 50vmin;
+  padding-left: 2vmin;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.search-button {
+  display: inline-block;
+  background: #fff;
+  padding: 0.8vmin 2vmin 0.7vmin 2vmin;
+  margin-top: 10px;
+  color: #111;
+  transition: 0.2s;
+  border-radius: 30px;
+  border-color: black;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  padding: 0.8vmin 2.8vmin 0.7vmin 2.8vmin;
 }
 
 /*  Section 2  */
@@ -397,14 +434,14 @@ footer .column i + i {
 }
 
 #map {
-  height: 400px;
+  height: 562px;
   width: 100%;
   background-color: grey;
   
 }
 
 #panel {
-  height: 66%;
+  height: 60%;
   width: null;
   background-color: white;
   position: absolute;
