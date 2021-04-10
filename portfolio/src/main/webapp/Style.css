@@ -34,14 +34,14 @@ header a {
 }
 
 .dropdown-content a {
-  color: grey; 
+  color: grey;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color:#ddd;
 }
 
 .dropdown:hover .dropdown-content {
@@ -61,7 +61,7 @@ header .navbar-brand {
 }
 
 header .nav-link:hover {
-  color: white; 
+  color: blue;
 }
 
 header .row .col-md-7 {
@@ -120,7 +120,7 @@ header .container .col-md-7 p {
 /* Create two equal columns that floats next to each other */
 .col-md-8{
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
 /* Clear floats after the columns */
@@ -285,7 +285,7 @@ instead of next to each other on smaller screens (600px wide or less) */
 
 .numbers .rect h1 {
   font-size: 5rem;
-  color: black; /*blue;*/
+  color: black; 
 }
 
 .numbers .rect > p {
@@ -295,7 +295,7 @@ instead of next to each other on smaller screens (600px wide or less) */
 .purchase > h1 {
   padding-top: 15vmin;
   padding-bottom: 0.1em;
-  font-family: var(--Lobster);
+  font-family: var(--Patua);
 }
 
 .purchase > p {
