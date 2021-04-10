@@ -50,8 +50,9 @@ $(window).scroll(function () {
     }
 });
 
-
-
+function googleTranslateElementInit() {
+   new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'zh-CN,es,en,fr'}, 'google_translate_element');
+}
 let autocomplete;
 let pos;
 let map;

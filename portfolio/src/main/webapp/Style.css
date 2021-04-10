@@ -105,6 +105,7 @@ header .container .col-md-7 p {
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
+  border: none;
 }
 
 .primary-btn:hover{
@@ -178,8 +179,8 @@ instead of next to each other on smaller screens (600px wide or less) */
 
 .search-bar-section{
   text-align: center;
-  margin: 0vmin 0vmin 5vmin 50vmin;
-  width: 50%;
+  margin: 0vmin 0vmin 3vmin 0vmin;
+  width: 100%;
 }
 
 .search-bar-section h3 {
@@ -191,19 +192,20 @@ instead of next to each other on smaller screens (600px wide or less) */
   border-radius: 50px;
   border-color: black;
   border-style: solid;
-  height: 4vmin;
+  height: 4.6vmin;
   width: 50vmin;
   padding-left: 2vmin;
   letter-spacing: 1px;
   font-size: 1em;
-  justify-content: center;
-  align-items: center;
+  outline: none;
 }
 
 .search-button {
-  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.9vmin 1.8vmin 0.9vmin 1.8vmin;
   background: #fff;
-  padding: 0.8vmin 2vmin 0.7vmin 2vmin;
   margin-top: 10px;
   color: #111;
   transition: 0.2s;
@@ -213,8 +215,17 @@ instead of next to each other on smaller screens (600px wide or less) */
   cursor: pointer;
 }
 
+.search-button:focus {
+  outline: none;
+}
+
 .search-button:hover {
-  padding: 0.8vmin 2.8vmin 0.7vmin 2.8vmin;
+  padding: 1vmin 2.8vmin 1vmin 2.8vmin;
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.3s ease-in-out;
+  outline: none;
 }
 
 /*  Section 2  */
@@ -445,7 +456,7 @@ footer .column i + i {
 }
 
 #panel {
-  height: 95%;
+  height: 78%;
   width: null;
   background-color: white;
   position: absolute;
