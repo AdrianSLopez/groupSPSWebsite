@@ -48,6 +48,10 @@ header a {
   display: block;
 }
 
+.navbar-brand:link, .navbar-brand:visited {
+  color: white;
+}
+
 header .nav-item:last-child {
   padding-right: 10.5em;
 }
@@ -56,12 +60,42 @@ header .nav-item {
   padding: 0.9em;
 }
 
-header .navbar-brand {
-  padding-left: 8rem;
+.nav-item active, .nav-item { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+
+header .nav-link {
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
 header .nav-link:hover {
-  color: blue;
+  color: white;
+}
+
+header .nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: cyan;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+header .nav-link:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 header .row .col-md-7 {
