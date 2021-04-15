@@ -581,3 +581,80 @@ a {
   height: 30px;
 }
 
+/* Fix section */
+.container .col-md-7 {
+  margin-top: -30px;
+  margin-left: -130px;
+}
+
+.container .col-md-5 {
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+#fruits-img {
+  width: 550px;
+  height: auto;
+}
+
+#address-text {
+  height: 45px;
+  width: 470px;
+  padding-left: 25px;
+}
+
+.search-button {
+  height: 45px;
+}
+
+#panel {
+  background-color: black;
+  height: 562px;
+}
+
+.place {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.details {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.cards {
+  margin-top: -80px;
+}
+
+.section-3 {
+  height: 750px;
+  margin-bottom: 40px;
+}
+
+#faqs {
+  margin-top: 30px;
+}
+
+#result {
+  padding-right: 60px;
+  list-style-type: none;
+}
+
+#result li {
+  font-size: 30px;
+}
+
+.questions {
+  font-weight: bolder;
+  font-family: cursive;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+#result em {
+  text-decoration: none !important;
+  font-style: normal !important;
+}
