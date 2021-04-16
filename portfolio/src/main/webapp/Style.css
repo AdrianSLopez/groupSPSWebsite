@@ -659,7 +659,7 @@ a {
 
 .questions {
   font-weight: bolder;
-  font-family: cursive;
+  font-family: var(--Patua);
   text-decoration: none !important;
   color: black !important;
 }
