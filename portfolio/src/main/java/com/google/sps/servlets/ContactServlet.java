@@ -32,5 +32,7 @@ public class ContactServlet extends HttpServlet {
     //SendMail.send();
 
     out.println("Mail sent successfully!");
+
+    response.sendRedirect("#contact-section");
   }
 }
