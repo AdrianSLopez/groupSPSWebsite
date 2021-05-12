@@ -35,7 +35,7 @@
     <header>
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <i class="fas fa-book-reader fa-2x mx-3"></i>FOODBANK</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#stats">STATS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="faqs-item">
                             <a class="nav-link" href="#faqs">FAQS</a>
                         </li>
                     </ul>
@@ -80,7 +80,7 @@
                     </a>
                 </div>
                 <div class="col-md-5 col-sm-12  h-25">
-                    <img src="./images/fruits-black-and-white.jpg"  alt="" />
+                    <img src="./images/fruits-black-and-white.jpg" id="fruits-img" alt="" />
             
                 </div>
                 
@@ -88,6 +88,7 @@
                 <div class= row2>
                 <div class="text-black text-center">
                 <h3>About Me</h3>
+                <br>
                 <br>
                 </div>
                 <div class="col-md-8 text-black">
@@ -97,7 +98,13 @@
                     happen. 
                 </p>
                 </div>
-
+                
+                <!--Empty column-->
+                <div class="col-md-8 text-black">
+                <img src="images/feedAmerica.jpg">
+                </div>
+                <!--Empty column done.-->
+                
                 <div class="col-md-8 text-black">                
                 <h4>Our Vision</h4>   
                 <p>Prevent households from going hungry  by providing them with the resources
@@ -109,17 +116,26 @@
         </div>
     </header>
     <main>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
         <section class="section-1">
             <div class="search-bar-section">
+                <h2>Looking for a food pantry near you?</h2>
+                <br>
                 <h3>Enter your address to find nearby food pantries.</h3> 
                 <input id="address-text" class="search-bar" placeholder="Ex: 123 main street, City name, State 90003, Country"> 
-                <button class="search-button" onclick="getAddress()"><img src="images/searchIcon.png"></button>
+                <button class="search-button" onclick="getAddress()">SEARCH</button>            
             </div>
-            
             <div id="panel"></div>
             <div id="map"></div>
         </section>
+
+        <h1 style="text-align: center;">If you're considering volunteering, check these stats out!</h1>
+        <br>
+        <br>        
         <section class="section-2 container-fluid p-0">
             <div class="cover">
                 <div class="overlay"></div>
@@ -156,8 +172,7 @@
                 <h1>Donate any amount you want</h1>
                 <p>
                     Any amount can go a long way in helping eradicate hunger. All money goes to the specific
-                    organizations.
-                </p>
+                    organizations.</p>
                 <div class="cards">
                     <div class="d-flex flex-row justify-content-center flex-wrap">
                         <div class="card">
@@ -218,15 +233,15 @@
                         <input id="search" placeholder="Search our FAQS" value="" size="30" /></p>
                         <p>&nbsp;</p>
                         <ul id="result">
-                            <li><strong>What volunteer opportunities are available?</strong><br /><br /><em>
+                            <li><strong class="questions">What volunteer opportunities are available?</strong><br /><br /><em>
                                     We have a number of volunteer opportunities for individuals and groups, whether you
                                     want to volunteer once a year or on a regular basis.
                                     <br /><br /></em></li>
-                            <li><strong>How do I register my group to volunteer?</strong><br /><br /><em>
+                            <li><strong class="questions">How do I register my group to volunteer?</strong><br /><br /><em>
                                     We currently don't offer volunteer registration sign ups. We only connect you to
                                     resources.
                                     <br /><br /></em></li>
-                            <li><strong>Where do my donations go?</strong><br /><br /><em>
+                            <li><strong class="questions">Where do my donations go?</strong><br /><br /><em>
                                         We don't accept donations. We direct you to complete donations 
                                         directly on the sites of the charity organizations.
                             <br /><br /></em></li> 
@@ -243,87 +258,72 @@
                 <h1 class="text-dark">Who Are We?</h1>
                 <h2 class="text-secondary">Meet the team:</h2>
             </div>
-            <div class="team row ">
-                <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block shadow-lg">
-                        <div class="card-img-top">
-                            <img src="./images/ebene.jpg"
-                                class="img-fluid" alt="Responsive image" class="img-thumbnail">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Ebenezer</h3>
-                            <p class="card-text">
-                                I am a Sophomore studying computer science at Pomona College, and I am primarily interested in 
-                                how software development can be used to solved challenging problems. 
-                            </p>
-                            <a href="https://www.linkedin.com/in/ebenmensah/"  class="text-primary">View my linkedin profile</a>
-                            <p  class="text-black-50">Student at Pomona</p>
-                        </div>
+            <div class="team-row text-center">
+                <div class="card d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="./images/ebene.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ebenezer</h3>
+                        <p class="card-text">
+                            I am a Sophomore studying computer science at Pomona College, and I am primarily interested in 
+                            how software development can be used to solved challenging problems. 
+                        </p>
+                        <a href="https://www.linkedin.com/in/ebenmensah/"  class="text-primary">View my linkedin profile</a>
+                        <p  class="text-black-50">Student at Pomona</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
-                        <div class="carousel-inner text-center">
-                            <div class="carousel-item active">
-                                <div class="card mr-2 d-inline-block shadow">
-                                    <div class="card-img-top">
-                                        <img src="./images/arlet.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="card-title">Arlet Miranda</h3>
-                                        <p class="card-text">
-                                            I am a sophomore at UC Berkeley studying computer science. I build for those 
-                                            who are unable to build for themselves. 
-                                        </p>
-                                        <a href="https://www.linkedin.com/in/arlet-miranda" class="text-primary">View my linkedin profile</a>
-                                        <p class="text-black-50">Student at Berkeley</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="card  d-inline-block mr-2 shadow">
-                                    <div class="card-img-top">
-                                        <img src="./" class="img-fluid" alt="Responsive image" class="img-thumbnail">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="card-title">Oswaldo</h3>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
-                                            recusandae, veniam, illo dolor soluta assumenda
-                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut
-                                            facilis quasi voluptas!
-                                        </p>
-                                        <a href="#" class="text-primary">View my linkedin profile</a>
-                                        <p class="text-black-50">Student at Texas</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="card d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                    <img src="./images/arlet.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Arlet Miranda</h3>
+                        <p class="card-text">
+                            I am a sophomore at UC Berkeley studying computer science. I build for those 
+                            who are unable to build for themselves. 
+                        </p>
+                        <a href="https://www.linkedin.com/in/arlet-miranda" class="text-primary">View my linkedin profile</a>
+                        <p class="text-black-50">Student at Berkeley</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block shadow-lg">
-                        <div class="card-img-top">
-                            <img src="../" class="img-fluid" alt="Responsive image" class="img-thumbnail">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Adrian</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
-                                veniam, illo dolor soluta assumenda
-                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
-                                voluptas!
-                            </p>
-                            <a href="#" class="text-primary">View my linkedin profile</a>
-                            <p class="text-black-50">Student at Los Angeles</p>
-                        </div>
+                <div class="card d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="./images/oswi.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Oswaldo Escobedo</h3>
+                        <p class="card-text">
+                            I am a junior student majoring in computer science at the University 
+                            of Texas at El Paso. Since I was a child I wanted to study something STEM-related, 
+                            it is not surprising that back then I used to say that my dream job was to work at 
+                            NASA one day. 
+                        </p>
+                        <a href="https://www.linkedin.com/in/arlet-miranda" class="text-primary">View my linkedin profile</a>
+                        <p class="text-black-50">Student at Texas</p>
+                    </div>
+                </div>
+                <div class="card d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="./images/adrian.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Adrian Salgado</h3>
+                        <p class="card-text">
+                            I reside in Los Angeles and a student at California State University, Los Angeles.
+                            I am a 2nd year, pursuing a bachelor's degree in Computer Science. I love learning 
+                            and exploring all the possible careers in Computer Science, it excites me that I will
+                                be pursuing a career of my own.
+                        </p>
+                        <a href="https://www.linkedin.com/in/adriansalgadocsula/" class="text-primary">View my linkedin profile</a>
+                        <p class="text-black-50">Student at Los Angeles</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Section 5 -->
-        <section class="Section-5">
+        <section class="Section-5" id="contact-section">
             <div class="container text-center">
                 <h1 class="text-dark">Contact Us</h1>
                 <p class="text-secondary">Use the form below to send us an email.</p>
